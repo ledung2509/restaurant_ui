@@ -1,0 +1,98 @@
+.booking-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f8fafc 0%, #e0ecff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-form {
+  background: #fff;
+  padding: 36px 32px 28px 32px;
+  border-radius: 16px;
+  box-shadow: 0 6px 32px rgba(46, 91, 255, 0.08);
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.booking-title {
+  text-align: center;
+  font-size: 1.55rem;
+  color: #2350d5;
+  font-weight: 700;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.booking-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.booking-row {
+  display: flex;
+  gap: 12px;
+}
+@media (max-width: 600px) {
+  .booking-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+.booking-field label {
+  font-size: 1rem;
+  color: #3b3b3b;
+  font-weight: 500;
+}
+
+.booking-field input,
+.booking-field select,
+.booking-field textarea {
+  padding: 10px 12px;
+  border-radius: 7px;
+  border: 1px solid #d2e4fe;
+  font-size: 1rem;
+  background: #f7faff;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.booking-field input:focus,
+.booking-field select:focus,
+.booking-field textarea:focus {
+  border-color: #2350d5;
+  background: #f0f6ff;
+}
+
+.booking-note textarea {
+  resize: vertical;
+}
+
+.booking-btn {
+  margin-top: 8px;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #2350d5, #54c3ff);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.13rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.booking-btn:hover {
+  background: linear-gradient(90deg, #54c3ff, #2350d5);
+}
