@@ -1,1 +1,1 @@
-# restaurant_ui
+# React + Vite
