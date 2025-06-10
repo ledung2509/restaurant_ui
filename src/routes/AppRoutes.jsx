@@ -7,6 +7,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import BookingTable from "../pages/BookingTable";
 import ProductDetails from "../pages/ProductDetails";
+import Profile from "../pages/Profile";
 
 const AppRoutes = () => (
   <Routes>
@@ -18,6 +19,7 @@ const AppRoutes = () => (
     <Route path="/register" element={<Register />} />
     <Route path="/booking" element={<BookingTable />} />
     <Route path="/products/:id" element={<ProductDetails />} />
+    <Route path="/profile" element={<Profile />} />
   </Routes>
 );
 

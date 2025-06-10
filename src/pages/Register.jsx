@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "/src/assets/style/authForm.css";
+import "/src/assets/style/user/authForm.css";
 import { Link } from "react-router-dom";
 
 export default function Register({ onSwitch }) {
